@@ -1,0 +1,230 @@
+@media screen and (min-width: 768px) {
+  /* texto de envios gratis */
+  .send-text {
+    font-size: 15pt;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* logo */
+  .content-logo img {
+    object-fit: contain;
+    width: 165px;
+    /* padding: .5rem; */
+  }
+  /* menu hamburguesa */
+  .abrir-nav,
+  .cerrar-nav {
+    display: none;
+  }
+  .content-nav {
+    display: none;
+
+  }
+  /* seccion buscador */
+  .content-search {
+    display: none;
+  }
+  .table-menu {
+    display: flex;
+  }
+  .content-search-tablet {
+    display: flex;
+    gap: 0.4rem;
+  }
+  .search-tablet {
+    border: 0.5px solid black;
+    width: 240px;
+    text-align: center;
+    height: 30px;
+    padding: 11px;
+    border-radius: 30px;
+  }
+  #search::placeholder {
+    color: #ab9c7e;
+  }
+
+  .info-header {
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    justify-content: space-around;
+  }
+  .badge.text-bg-primary.text-wrap {
+    background-color: #523726 !important;
+    color: #c8b999 !important;
+    border-radius: 0;
+    font-size: 13pt;
+  }
+  .menu-hamburguesa {
+    display: none;
+  }
+  /*   
+  logos tablet */
+  .icons-content {
+    height: 32px;
+    align-items: end;
+    gap: 20px;
+    width: fit-content;
+    margin-bottom: 7px;
+  }
+  .icons-content a{
+    height: auto;
+  }
+  .icons-content a img {
+    width: 100%;
+    height: 27px;
+    object-fit: cover;
+  }
+
+  /* menu navegacion tablet */
+  .content-navigation {
+    display: flex;
+    width: 100%;
+    height: 3vh;
+    padding-top: 20px;
+  }
+  .content-nav-tablet {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    gap: 0.5rem;
+    background-color: #523726;
+    padding-top: 4%;
+    padding-bottom: 2% ;
+    border-bottom: 3px solid #bc8150;
+  }
+  .nav-list-tablet {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+    align-items: start;
+    list-style-type: none;
+    transition: transform 0.5s;
+  }
+  .nav-list-tablet li {
+    
+    position: relative;
+    --clip: polygon(0 0, 100% 0, 100% 0, 0 0);
+    --transform: rotate(-90deg);
+    height: auto;
+  }
+  .nav-list-tablet li:hover {
+    --clip: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    --transform: rotate(0);
+  }
+  .menu-arrow{
+    width: 20px;
+    height: 20px;
+    transform: var(--transform);
+    transition: transform .3s;
+  }
+  .nav-list-tablet li a {
+    text-decoration: none;
+    color: #939535;
+    font-weight: bold;
+    font-size: 14pt;
+    display: flex;
+    align-items: center;
+
+  }
+  .nav-list-tablet li a:hover {
+    color: #c8b999;
+  }
+  .sub-menu-table {
+    position: absolute;
+    padding: 8px;
+    z-index: 10;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    gap: 0.3rem;
+    background-color: #939535;
+    clip-path: var(--clip);
+    transition: clip-path .5s;
+  }
+  .sub-menu-table li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    width: 30%;
+  }
+  .sub-menu-table li a {
+    color: #523726;
+    display: flex;
+    align-items: center;
+  }
+
+  .img-lupa {
+    height: 27px;
+  }
+
+  .logo-footer img {
+    width: 100px;
+  }
+  .footer .email {
+    font-size: 14pt;
+  }
+  .icons-footer {
+    justify-content: center;
+    gap: 3rem;
+  }
+  .icons-footer img {
+    width: 40px;
+    height: 35px;
+  }
+
+  .offer-carousel {
+    margin-top: 37px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  .icons-content {
+    height: auto;
+    gap: 30px;
+    padding-top: .3rem;
+  }
+
+  .icons-content a img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+  }
+
+  .content-logo img {
+    object-fit: contain;
+    width: 150px;
+  }
+  .info-header {
+    display: flex;
+    height: 9vh;
+    justify-content: space-around;
+  }
+  .search-tablet {
+    border: 0.5px solid black;
+    width: 300px;
+    text-align: center;
+    height: 30px;
+    padding: 11px;
+    border-radius: 40px;
+  }
+ footer{
+  width: 100%;
+ }
+ .content-nav-tablet {
+
+  padding-top: 2%;
+  padding-bottom: 1% ;
+
+}
+}
+ 

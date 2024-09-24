@@ -1,0 +1,109 @@
+@media screen and (min-width:768px){
+  .geral{
+    height: 750px;
+    margin-top: 55px;
+    padding-top: 65px;
+  }
+    
+  .registerDecoration{
+    width: 380px;
+    height: 175%
+  }
+  .formulario {
+    width: 380px;
+    top: 142px;
+  }
+    
+  .input-form {
+    font-size: 0.8rem;
+    height: 40px;
+  }
+    
+  .btn-cont div{
+    margin-top: 13px;
+  }
+  .registered{
+    font-size: .7rem;
+  }
+  .login{
+    font-size: .7rem;
+  }
+  #eye-open{
+    margin-left: 200px;
+    margin-top: 62px;
+  }
+  #eye-closed{
+    margin-left: 200px;
+    margin-top: 62px;
+  }
+  /* estilos validaciones */
+      
+  .error{
+    text-align: center;
+    font-size: 10pt;
+  }
+  .email:invalid{
+    border: 2px solid red;
+  }
+     
+  /* estilos SweetAlert */
+    
+  .titulo-password{
+    color: #523726;
+    font-size: 1rem;
+    font-weight: 300;
+  }
+
+@media screen and (min-width:1024px){
+  .registerDecoration{
+    width: 480px;
+    height: 192%;
+    background-position:inherit; /* Centra la imagen dentro del contenedor */
+  }
+          
+  .formulario {
+    width: 480px;
+    top: 180px;
+  }
+          
+ .input-form {
+    font-size: 0.9rem;
+    height: 42px;
+  }
+  #eye-open{
+    margin-left: 290px;
+    margin-top: 65px;
+  }
+  #eye-closed{
+    margin-left: 290px;
+    margin-top: 65px;
+  }
+          
+  .btn-cont div{
+    margin-top: 15px;
+  }
+  .registered{
+    font-size: .8rem;
+  }
+ .login{
+    font-size: .8rem;
+  }
+            
+  /* estilos validaciones */
+            
+  .error{
+    text-align: center;
+    font-size: 10pt;
+  }
+ .email:invalid{
+    border: 2px solid red;
+  }
+           
+  /* estilos SweetAlert */
+          
+  .titulo-password{
+    color: #C8B999;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+}}

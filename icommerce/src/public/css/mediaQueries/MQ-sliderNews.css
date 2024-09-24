@@ -1,0 +1,106 @@
+@media screen and (min-width:768px){
+
+.gallery{
+    height: 350px;
+}
+
+.gallery-container{
+    height: 350px;
+}
+
+.gallery-item{
+    height: 140px;
+    width: 290px;
+}
+
+.gallery-item-2, .gallery-item-4{
+    height: 170px;
+    width: 330px;
+}
+
+.gallery-item-2{
+    left: 30%;
+    transform: translateX(-50%);
+}
+
+.gallery-item-3{
+    height: 200px;
+    width: 400px;
+}
+
+.gallery-controls{
+    margin: 25px 0;
+    height: 100px;
+    top: -250px;
+}
+
+.gallery-controls button{
+    font-size: 40px;
+    margin: 0 50px;
+    padding: 0 140px;
+    z-index: 20;
+}
+
+}
+
+/* inicio MQ DESKTOP.................................... */
+
+@media screen and (min-width:1024px){
+
+    .gallery{
+        height: 350px;
+    }
+    
+    .gallery-container{
+        height: 350px;
+    }
+    
+    .gallery-item{
+        height: 180px;
+        width: auto;
+    }
+    
+    .gallery-item-2, .gallery-item-4{
+        height: 200px;
+        width: auto;
+    }
+    
+    .gallery-item-2{
+        left: 30%;
+        transform: translateX(-50%);
+    }
+    
+    .gallery-item-3{
+        height: auto;
+        width: 500px;
+    }
+    
+    .gallery-controls{
+        margin: 25px 0;
+        height: 100px;
+        top: -250px;
+    }
+    
+    .gallery-controls button{
+        font-size: 40px;
+        margin: 0 50px;
+        padding: 0 200px;
+        z-index: 20;
+    }
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
